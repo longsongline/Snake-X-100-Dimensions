@@ -1,6 +1,7 @@
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
+ * v1.0.1 - Triggering fresh build for GitHub Actions deployment
  */
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
