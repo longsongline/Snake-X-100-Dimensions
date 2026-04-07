@@ -1,7 +1,7 @@
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
- * v1.0.1 - Triggering fresh build for GitHub Actions deployment
+ * v1.0.2 - Triggering fresh build for GitHub Actions deployment
  */
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
@@ -912,7 +912,7 @@ export default function App() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, scale: 0.95 }}
-                className="absolute inset-0 flex flex-col p-8 overflow-y-auto custom-scrollbar"
+                className="absolute inset-0 flex flex-col p-8 pr-4 overflow-y-auto custom-scrollbar"
               >
                 <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
                   <Play className="w-6 h-6 text-emerald-500" /> Select a Mode
